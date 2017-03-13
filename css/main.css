@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.flex {
+  display: flex; }
+
+.column {
+  flex-direction: column; }
+
+.wrap {
+  flex-wrap: wrap; }
+
+.space-between {
+  justify-content: space-between; }
+
+.justify-center {
+  justify-content: center; }
+
+* {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+p {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49; }
+
+body {
+  padding: 1rem;
+  width: 80%;
+  margin: auto; }
+
+img {
+  transition: all 300ms ease; }
+
+hr {
+  height: 5px;
+  background-color: #2d3c49;
+  border-radius: 3px;
+  margin-bottom: 1.5rem; }
+
+.logo i {
+  color: #02b3e4;
+  text-shadow: 4px 4px 2px #969696;
+  padding-right: 1rem; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-align: right; }
+
+h2 {
+  color: #7d97ad;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  font-weight: 300; }
+
+header {
+  justify-content: space-between; }
+
+header h3 {
+  text-align: right; }
+
+footer h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 400; }
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0.5rem 0 1.5rem; }
+
+main {
+  max-height: 450px;
+  overflow: hidden; }
+
+main img {
+  width: 100%; }
+
+footer {
+  padding: 1rem 0; }
+
+.app {
+  text-align: center; }
+  .app img {
+    width: 100%; }
+
+@media screen and (max-width: 640px) {
+  * {
+    text-align: center; }
+  header {
+    justify-content: center; }
+  h1 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .logo i {
+    font-size: 2.5rem; }
+  h3 {
+    text-align: center; }
+  footer {
+    justify-content: center;
+    flex-wrap: wrap; }
+  main img {
+    width: 100%; } }
+
+@media screen and (min-width: 641px) {
+  footer {
+    justify-content: space-between; }
+  .app1 img {
+    padding-right: 4px; }
+  .app2 img {
+    padding: 0 2px; }
+  .app3 img {
+    padding-left: 4px; } }
